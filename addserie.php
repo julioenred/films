@@ -1,10 +1,5 @@
 <?php
-// Lo hemos trabajado en conjunto
-
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$db = "films";
+include './config.php';
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $db);
